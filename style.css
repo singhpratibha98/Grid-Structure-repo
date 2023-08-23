@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+}
+.container{
+    display: grid;   
+    grid-template-columns: repeat(16,6.25%);
+    grid-template-rows: repeat(6,6rem);
+    height: 36rem;
+    border: 1px solid white;
+    background-color: black;
+}
+.g1{
+    grid-area: g1;
+    grid-column: 1/span 16;
+    grid-row: 1/span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav button{
+    background-color: black;
+    color: white;
+    padding: 5% 40%;
+    border-radius: 8px;
+}
+.g2{
+    grid-area: g2;
+    grid-column: 1/span 3;
+    grid-row: 2/span 1;
+}
+.g3{
+    grid-area: g3;
+    grid-column: 4/span 5;
+    grid-row: 2/span 1;
+}
+.g4{
+    grid-area: g4;
+    grid-column: 9/span 3;
+    grid-row: 2/span 3;
+    
+}
+.g5{
+    grid-area: g5;
+    grid-column: 12/span 5;
+    grid-row: 2/span 3;
+}
+.g6{
+    grid-area: g6;
+    grid-column:1/span 5 ;
+    grid-row:3/span 2 ;
+}
+.g7{
+    grid-area: g7;
+    grid-column:6/span 3 ;
+    grid-row:3/span 2 ;
+}
+.g8{
+    grid-area: g8;
+    grid-row: 5/span 2;
+    grid-column: 1/span 6;
+}
+.g9{
+    grid-area: g9;
+    grid-row: 5/span 2;
+    grid-column: 7/span 6;
+}
+.g10{
+    grid-area: g10;
+    grid-row: 5/span 2;
+    grid-column: 13/span 4;
+}
+.item{
+    border: 1px solid white;
+    margin: 2px;
+    padding: 2px;
+    background-color: white;
+}
+
+
+
+
